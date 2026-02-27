@@ -1,6 +1,14 @@
 # Chipotle Sales EDA
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
+![EDA](https://img.shields.io/badge/Type-Exploratory%20Data%20Analysis-orange)
+
+📌 End-to-end exploratory data analysis project focused on identifying revenue drivers and understanding customer purchasing behavior.
 
 Exploratory Data Analysis (EDA) of Chipotle sales transaction data using Python, Pandas, and Matplotlib.
+
+## 📓 View Full Analysis
+[Open Jupyter Notebook](chipotle_eda.ipynb)
 
 ## 📊 Project Overview
 This project explores Chipotle sales data to better understand:
@@ -8,7 +16,7 @@ This project explores Chipotle sales data to better understand:
 - Price distribution and detection of outliers
 - Sales patterns across product categories (e.g., Chicken, Steak, Veggie)
 
-The goal is to clean the dataset, engineer meaningful features, and extract business insights through data visualization.
+The objective of this project is to transform raw transactional data into actionable business insights using structured data analysis and visualization techniques.
 
 ## 🛠 Tools & Technologies
 - Python
@@ -26,9 +34,12 @@ Chipotle sales dataset in TSV format containing transactional order data.
 - Visualization of trends and distributions
 
 ## 📈 Key Findings
-- Chicken-based items are the most frequently purchased products
-- A small number of menu items drive a large portion of total revenue
-- Item prices show clear clustering with a few high-value outliers
+- Total revenue across all transactions reached approximately **$39,237**.
+- The Average Order Value (AOV) was approximately **$21.39 per order**, indicating predominantly individual-sized purchases.
+- Revenue shows strong positive correlation with quantity (**r = 0.76**), suggesting sales are primarily volume-driven rather than price-driven.
+- Price demonstrates moderate correlation with revenue (**r = 0.61**) but weak correlation with quantity (**r = 0.26**).
+- A small number of menu items contribute disproportionately to overall revenue, indicating product concentration.
+- Sales performance appears to be demand-driven, with customer purchasing behavior favoring core mid-priced menu items.
 
 ## 🚀 Next Steps
 - Customer segmentation
